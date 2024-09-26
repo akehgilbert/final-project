@@ -1,0 +1,142 @@
+body {
+  background-color: rgb(233, 228, 238);
+}
+h1 {
+  text-align: center;
+  color: blueviolet;
+}
+
+.navbar a {
+  text-decoration: none;
+  width: 60px;
+  display: block;
+  padding: 20px 20px;
+  text-align: right;
+}
+
+.navbar {
+  background-color: blueviolet;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+.navbar a:hover {
+  background-color: aqua;
+}
+.navdiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo a {
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  margin: 0 10px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+li a {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0 10px;
+}
+main {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #55ffe5;
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  width: 700px;
+  height: 281px;
+  border: none;
+}
+
+.contact-box {
+  background: #fff;
+  display: flex;
+}
+
+.contact-left {
+  flex-basis: 60%;
+  padding: 40px 60px;
+}
+
+.contact-right {
+  flex-basis: 40%;
+  padding: 40px;
+  background: #1c00b5;
+  color: #fff;
+}
+
+h1 {
+  margin-bottom: 10px;
+}
+
+.container {
+  margin-bottom: 40px;
+}
+
+.input-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.input-row .input-group {
+  flex-basis: 45%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  padding: 5px;
+}
+
+textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  outline: none;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+label {
+  margin-bottom: 6px;
+  display: block;
+  color: #1c00b5;
+}
+
+button {
+  background: #1c00b5;
+  width: 100px;
+  border: none;
+  outline: none;
+  color: #fff;
+  height: 35px;
+  border-radius: 30px;
+  margin-top: 20px;
+  box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.no-border {
+  border: none;
+}
